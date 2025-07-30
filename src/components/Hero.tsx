@@ -4,59 +4,56 @@ import { GraduationCap, TrendingUp, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-background to-secondary/20 py-20">
+    <section className="bg-gradient-to-br from-background via-muted/30 to-muted/50 py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Finally, Summer Freedom That Pays
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+          <p className="text-xl md:text-2xl text-foreground/80 mb-8 leading-relaxed max-w-3xl mx-auto">
             Turn Your Teaching Passion Into Your Own Profitable Summer Business - Without the Red Tape
           </p>
-          <Button 
-            size="lg" 
-            className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6"
-          >
+          <button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-lg px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
             Show Me How
-          </Button>
+          </button>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <Card className="p-6 text-center border border-border bg-card">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <GraduationCap className="h-8 w-8 text-primary" />
+          <div className="p-8 text-center border border-border bg-card rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div className="w-20 h-20 bg-warning/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <GraduationCap className="h-10 w-10 text-warning" />
             </div>
-            <h3 className="text-lg font-semibold text-card-foreground mb-2">
-              Use Your Teaching Skills
+            <h3 className="text-xl font-bold text-foreground mb-3">
+              Your Classroom, Your Rules
             </h3>
-            <p className="text-muted-foreground">
-              Apply your classroom expertise to inspire young minds in an entrepreneurial setting
+            <p className="text-foreground/70 leading-relaxed">
+              Design learning experiences without bureaucratic constraints
             </p>
-          </Card>
+          </div>
 
-          <Card className="p-6 text-center border border-border bg-card">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <TrendingUp className="h-8 w-8 text-primary" />
+          <div className="p-8 text-center border border-border bg-card rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div className="w-20 h-20 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <TrendingUp className="h-10 w-10 text-accent" />
             </div>
-            <h3 className="text-lg font-semibold text-card-foreground mb-2">
-              Proven Profit Model
+            <h3 className="text-xl font-bold text-foreground mb-3">
+              Summer Income Revolution
             </h3>
-            <p className="text-muted-foreground">
-              Join a tested franchise system with established revenue streams and growth potential
+            <p className="text-foreground/70 leading-relaxed">
+              Earn more in 8 weeks than traditional summer jobs pay all season
             </p>
-          </Card>
+          </div>
 
-          <Card className="p-6 text-center border border-border bg-card">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="h-8 w-8 text-primary" />
+          <div className="p-8 text-center border border-border bg-card rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div className="w-20 h-20 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Users className="h-10 w-10 text-secondary" />
             </div>
-            <h3 className="text-lg font-semibold text-card-foreground mb-2">
-              Complete Support System
+            <h3 className="text-xl font-bold text-foreground mb-3">
+              Impact Without Limits
             </h3>
-            <p className="text-muted-foreground">
-              Get comprehensive training, marketing support, and ongoing guidance every step of the way
+            <p className="text-foreground/70 leading-relaxed">
+              Watch children thrive using methods you've always wanted to try
             </p>
-          </Card>
+          </div>
         </div>
       </div>
     </section>
