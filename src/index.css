@@ -32,6 +32,9 @@ All colors MUST be HSL.
     --warning: 55 94% 64%; /* Yellow #FAE345 */
     --warning-foreground: 210 72% 15%;
 
+    --success: 142 70% 45%; /* Green */
+    --success-foreground: 0 0% 100%;
+
     --destructive: 4 100% 62%;
     --destructive-foreground: 0 0% 100%;
 

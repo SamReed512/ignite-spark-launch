@@ -13,7 +13,7 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-foreground/80 mb-8 leading-relaxed max-w-3xl mx-auto">
             Turn Your Teaching Passion Into Your Own Profitable Summer Business - Without the Red Tape
           </p>
-          <button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-lg px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
+          <button className="bg-success text-success-foreground hover:bg-success/90 transition-colors text-2xl px-12 py-6 rounded-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
             Show Me How
           </button>
         </div>
